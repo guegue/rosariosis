@@ -1,0 +1,86 @@
+/**
+ * WPadmin custom theme
+ * Stylesheet for wkhtmltopdf (PDF printing)
+ *
+ * @package RosarioSIS
+ * @subpackage assets/themes
+ */
+
+/* Import WPadmin style (already includes colors.css) */
+@import url("../WPadmin/stylesheet_wkhtmltopdf.css");
+
+/* Replace the modules icons & set size to 36px instead of 32px */
+.menu-top img,
+#pdf h2 img {
+	width: 36px;
+	padding: 36px 0 0 0;
+	height: 0;
+	overflow: hidden;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+img[src$="modules/Accounting/icon.png"] {
+	background-image: url("modules/Accounting.png");
+}
+
+img[src$="modules/Attendance/icon.png"] {
+	background-image: url("modules/Attendance.png");
+}
+
+img[src$="modules/Discipline/icon.png"] {
+	background-image: url("modules/Discipline.png");
+}
+
+img[src$="modules/Grades/icon.png"] {
+	background-image: url("modules/Grades.png");
+}
+
+img[src$="modules/Eligibility/icon.png"] {
+	background-image: url("modules/Eligibility.png");
+}
+
+img[src$="modules/Example/icon.png"] {
+	background-image: url("modules/Example.png");
+}
+
+img[src$="modules/Food_Service/icon.png"] {
+	background-image: url("modules/Food_Service.png");
+}
+
+img[src$="modules/Messaging/icon.png"] {
+	background-image: url("modules/Messaging.png");
+}
+
+img[src$="modules/misc/icon.png"] {
+	background-image: url("modules/misc.png");
+}
+
+img[src$="modules/Resources/icon.png"] {
+	background-image: url("modules/Resources.png");
+}
+
+img[src$="modules/Reports/icon.png"] {
+	background-image: url("modules/Reports.png");
+}
+
+img[src$="modules/Scheduling/icon.png"] {
+	background-image: url("modules/Scheduling.png");
+}
+
+img[src$="modules/School_Setup/icon.png"] {
+	background-image: url("modules/School_Setup.png");
+}
+
+img[src$="modules/Student_Billing/icon.png"] {
+	background-image: url("modules/Student_Billing.png");
+}
+
+img[src$="modules/Students/icon.png"] {
+	background-image: url("modules/Students.png");
+}
+
+img[src$="modules/Users/icon.png"] {
+	background-image: url("modules/Users.png");
+}

@@ -1,0 +1,4 @@
+[submodule "module_reports"]
+	path = modules/Reports
+	url = https://github.com/francoisjacquet/Reports.git
+	ignore = dirty

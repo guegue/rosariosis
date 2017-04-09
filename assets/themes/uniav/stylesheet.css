@@ -92,7 +92,7 @@ img[src="modules/Users/icon.png"] {
 
 /* Login page background photo */
 body.login {
-	background-image: url('background/theoretical-knowledge.jpg');
+	background-image: url('background/practical-knowledge.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

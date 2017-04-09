@@ -487,13 +487,13 @@ input.button-primary {
     border-color: #298cba;
     font-weight: 700;
     color: #fff;
-    background: #21759b url(button-grad.png) repeat-x scroll left top;
+    background: #1c9d40 url(button-grad.png) repeat-x scroll left top;
     text-shadow: rgba(0, 0, 0, .3) 0 -1px 0
 }
 a.button-primary:active,
 button.button-primary:active,
 input.button-primary:active {
-    background: #21759b url(button-grad-active.png) repeat-x scroll left top;
+    background: #1c9d40 url(button-grad-active.png) repeat-x scroll left top;
     color: #eaf2fa
 }
 a.button-primary:active,
@@ -531,7 +531,7 @@ div.updated {
 }
 .adminmenu a,
 a {
-    color: #21759b
+    color: #1c9d40
 }
 .postbox {
     border-color: #dfdfdf;
@@ -675,7 +675,7 @@ hr {
 @media only screen and (max-width: 736px) {
     .wp-submenu a:hover {
         background: 0 0;
-        color: #21759b
+        color: #1c9d40
     }
 }
 @font-face {

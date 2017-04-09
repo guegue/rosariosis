@@ -7,7 +7,7 @@
  */
 
 /* Import WPadmin style (already includes colors.css) */
-@import url("../WPadmin/stylesheet_wkhtmltopdf.css");
+@import url("base_wkhtmltopdf.css");
 
 /* Replace the modules icons & set size to 36px instead of 32px */
 .menu-top img,

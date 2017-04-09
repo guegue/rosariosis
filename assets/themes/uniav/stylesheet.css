@@ -6,7 +6,7 @@
  */
 
 /* Import WPadmin style (already includes colors.css & jscalendar & colorbox) */
-@import url("../WPadmin/stylesheet.css");
+@import url("base.css");
 
 /* Replace the modules icons & set size to 36px instead of 32px */
 .menu-top img,

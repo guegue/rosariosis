@@ -40,6 +40,7 @@ function moodle_xmlrpc_call( $functionname, $object )
 
 	$resp = xmlrpc_decode( $curl->post( $serverurl, $post ), 'utf-8' );
 
+	error_log(print_r($resp, 1));
 	if ( get_xmlrpc_error( $resp ) )
 	{
 		// Handle the positive response.
